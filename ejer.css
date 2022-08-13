@@ -1,0 +1,44 @@
+.cuerpo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+    padding: 100px;
+    background-color: brown;   
+}
+
+.sect{
+    height: auto;
+    justify-content: center;
+}
+
+.contenedor{
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.contenedor_titulo{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.contenedor_button{
+    color: blanck;
+    background-color: aqua;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px ;
+}
+
